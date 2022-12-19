@@ -1,0 +1,91 @@
+/* font-family
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Cinzel', serif;
+ */
+
+@font-face {
+    font-family: 'Shadows Into Light';
+    src: url(../fonts/ShadowsIntoLight-Regular/ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url(../fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+
+h1{
+    background: #333;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: left;
+    text-shadow: 5px 5px red;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h2{
+    background: lightgreen;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    word-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+strong{
+    color: gold;
+    word-spacing: 10px;
+}
+
+em {
+    color: red;
+    font-style: italic;
+    word-spacing: 7px;
+}
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+}
+
+ol {
+    color: crimson;
+    font-family: 'Cinzel', serif;
+}
+
+h4 {
+    background: yellow;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 35px;
+    word-spacing: 10px;
+    text-shadow: -5px 5px gray;
+}
+
+h5 {
+    letter-spacing: 5px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+}
+
+ul{
+    background: lightgray;
+}
+
+li{
+    line-height: 30px;
+}
